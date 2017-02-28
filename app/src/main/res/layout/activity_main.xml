@@ -1,74 +1,158 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="@android:color/background_dark"
+    android:fillViewport="true"
     tools:context="com.fragargon.android.buzzinesscard.MainActivity">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="130dp"
-        android:contentDescription="@string/desc"
-        android:src="@drawable/banner" />
-
-
     <LinearLayout
+
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_gravity="clip_vertical"
-        android:layout_weight="1"
-        android:orientation="horizontal">
-
-        <Button
-            style="@style/button_style"
-            android:onClick="btn1"
-            android:text="@string/button1" />
-
-        <Button
-            style="@style/button_style"
-            android:onClick="btn2"
-            android:text="@string/button2" />
-
-        <Button
-            style="@style/button_style"
-            android:onClick="btn3"
-            android:text="@string/button3" />
-    </LinearLayout>
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/fragment_container"
-        android:layout_margin="12dp"
-        android:padding="4dp" >
-
-    </FrameLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_height="130dp"
             android:contentDescription="@string/desc"
-            android:scaleType="centerCrop"
-            android:src="@drawable/resize_accueil" />
+            android:src="@drawable/banner" />
 
-        <ImageView
+        <LinearLayout style="@style/fr_LL">
+
+            <TextView
+                style="@style/text_style_home"
+                android:text="@string/textHome"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/text_style_home"
+                android:text="@string/textHome1" />
+
+            <TextView
+                style="@style/text_style_home"
+                android:text="@string/textHome2" />
+
+            <TextView
+                style="@style/text_style_home"
+                android:text="@string/textHome3" />
+
+            <TextView
+                style="@style/text_style_home"
+                android:text="@string/textHome4" />
+
+            <TextView
+                style="@style/text_style_home"
+                android:text="@string/textHome8" />
+
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/fr_LL">
+
+            <TextView
+                style="@style/text_style_hourly"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="@string/textHourly" />
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/text_style_hourly"
+                android:text="@string/textHourly11" />
+
+            <TextView
+                style="@style/text_style_hourly"
+                android:text="@string/textHourly1" />
+
+            <TextView
+                style="@style/text_style_hourly"
+                android:text="@string/textHourly3" />
+
+            <TextView
+                style="@style/text_style_hourly"
+                android:text="@string/textHourly6" />
+
+            <TextView
+                style="@style/text_style_hourly"
+                android:layout_marginBottom="8dp"
+                android:text="@string/textHourly7" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/fr_LL">
+
+            <TextView
+                style="@style/text_style_hourly"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="@string/textContactinfo" />
+
+            <TextView
+                style="@style/text_style_contact"
+                android:text="@string/textContact2" />
+
+            <TextView
+                style="@style/text_style_contact"
+                android:text="@string/textContact" />
+
+            <TextView
+                style="@style/text_style_contact"
+                android:text="@string/textContact1" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="112dp"
+                    android:layout_marginRight="112dp"
+                    android:contentDescription="@string/desc"
+                    android:src="@drawable/ic_phone_black_24dp" />
+
+                <TextView
+                    android:id="@+id/ic_num"
+                    style="@style/text_style_contact"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginStart="48dp"
+                    android:text="@string/textContact3" />
+
+            </RelativeLayout>
+
+            <TextView
+                style="@style/text_style_contact"
+                android:text="@string/textContact5" />
+
+            <TextView
+                style="@style/text_style_contact"
+                android:text="@string/textContact6" />
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:contentDescription="@string/desc"
-            android:scaleType="centerCrop"
-            android:src="@drawable/resize_rr_moto" />
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/desc"
+                android:scaleType="centerCrop"
+                android:src="@drawable/resize_accueil" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/desc"
+                android:scaleType="centerCrop"
+                android:src="@drawable/resize_rr_moto" />
+        </LinearLayout>
+
     </LinearLayout>
-
-</LinearLayout>
-
+</ScrollView>

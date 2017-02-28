@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- fragment LinearLayout style -->
+
     <style name="fr_LL">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:orientation">vertical</item>
-        <item name="android:background">@drawable/rect_stroke_shape</item>
+        <item name="android:background">@drawable/rect_round_shape</item>
         <item name="android:layout_margin">4dp</item>
-        <item name="android:padding">8dp</item>
+        <item name="android:padding">4dp</item>
     </style>
     <!-- icon style -->
     <style name="fr_IC">
@@ -16,20 +16,11 @@
         <item name="android:gravity">center</item>
         <item name="android:padding">8dp</item>
     </style>
-    <!--button style -->
-    <style name="button_style" parent="TextAppearance.AppCompat.Button">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:layout_margin">4dp</item>
-        <item name="android:padding">4dp</item>
-        <item name="android:background">@drawable/rect_round_shape</item>
-    </style>
     <!--text style -->
     <style name="text_style_home">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:padding">6dp</item>
+        <item name="android:padding">2dp</item>
         <item name="android:textColor">@android:color/background_dark</item>
         <item name="android:gravity">center</item>
     </style>

@@ -4,8 +4,6 @@
 
     <corners android:radius="36dp" />
 
-    <solid android:color="@color/rect_stroke_solid"/>
-
     <stroke
         android:width="4px"
         android:color="@color/accent_material_light_1" />

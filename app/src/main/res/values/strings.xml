@@ -8,7 +8,7 @@
     <string name="button2">Hourly</string>
     <string name="button3">Contact</string>
     <string name="btn_def">Click on the button below to show  its content</string>
-    <!-- string fragment_home -->
+    <!-- string home -->
     <string name="textHome">Ride and Race</string>
     <string name="textHome1">your KTM dealer</string>
     <string name="textHome2">Listening and serving its customers</string>
@@ -18,26 +18,19 @@
     <string name="textHome6">Chaussée de Wavre 327</string>
     <string name="textHome7">1390 Grez Doiceau</string>
     <string name="textHome8">BELGIUM</string>
-    <!-- string fragment_hourly -->
+    <!-- string hourly -->
     <string name="textHourly">Openings hours: </string>
-    <string name="textHourly1">Monday: 13h - 18h</string>
+    <string name="textHourly1">Monday to Tuesday: 13h - 18h</string>
     <string name="textHourly11">(Monday closed from October till March)</string>
-    <string name="textHourly2">Tuesday : 13h - 18h</string>
-    <string name="textHourly3">Wednesday : 9h - 18h</string>
-    <string name="textHourly4">Thursday : 9h - 18h</string>
-    <string name="textHourly5">Friday : 9h - 18h</string>
+    <string name="textHourly3">Wednesday to Friday : 9h - 18h</string>
     <string name="textHourly6">Saturday : 10h - 17h</string>
     <string name="textHourly7">Sunday Closed</string>
-    <!-- string fragment_contact -->
+    <!-- string contact -->
+    <string name="textContactinfo">Contact</string>
     <string name="textContact">Chaussée de Wavre 327</string>
     <string name="textContact1">1390 Grez Doiceau</string>
     <string name="textContact2">BELGIUM</string>
     <string name="textContact3">Tel: +3210888193</string>
-    <string name="textContact4">Email:</string>
     <string name="textContact5">kevin@ride-and-race.be</string>
     <string name="textContact6">http://www.ride-and-race.be</string>
-    <string name="textContact61">Site Web</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
