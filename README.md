@@ -15,6 +15,6 @@ ____________
 Design and implement a single screen app that displays information about a small business that you are closely familiar with.
 
 
-![Alt Text](https://github.com/fragargon/BuzzinessCard/raw/master/buzzinessCard_1.png) ![Alt Text](https://github.com/fragargon/BuzzinessCard/raw/master/buzzinessCard_1.png)
+![Alt Text](https://github.com/fragargon/BuzzinessCard/raw/master/buzzinessCard_1.png) ![Alt Text](https://github.com/fragargon/BuzzinessCard/raw/master/buzzinessCard_2.png)
 
 
