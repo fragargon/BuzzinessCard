@@ -31,6 +31,6 @@ This is a very, very simple Android Studio project for the Android Basics Nanode
 The goal was to design and implement a single screen app that displays information about a fictional small business (our favorite coffeeshop, local restaurant etc... I have dedicated this app to my favorite mechanical motorcycle workshop.
 
 
-![Alt Text](https://github.com/fragargon/BuzzinessCard/raw/master/buzzinessCard_1.png)
-
+![Alt Text](https://github.com/fragargon/BuzzinessCard/raw/master/buzzinessCard_1.png) 
 ![Alt Text](https://github.com/fragargon/BuzzinessCard/raw/master/buzzinessCard_2.png)
+
